@@ -1,0 +1,113 @@
+
+body {
+    background-image: url(image/pic.jpg);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Coda Caption', sans-serif;
+}
+body::before {
+    content: "";
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Registration_form {
+    padding: 25px;
+    border-radius: 5px;
+    width: 400px;
+}
+.Registration_form .title {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.form_wrap {
+    margin-top: 35px;
+}
+.form_wrap .input_wrap {
+    margin-bottom: 15px;
+}
+.form_wrap .input_wrap:last-child {
+    margin-bottom: 0;
+}
+.form_wrap .input_wrap label{
+    display: block;
+    margin-bottom: 3px;
+    color:white;
+}
+.form_wrap .input_grp {
+    justify-content: space-between;
+}
+.form_wrap .input_grp input[type="text"] {
+    width: 400px;
+}
+.form_wrap input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px white;
+    padding: 10px;
+    outline: none;
+}
+.form_wrap ul {
+    padding: 8px 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+.form_wrap ul li:first-child{
+    margin-right: 15px;
+}
+.form_wrap ul .radio_wrap {
+    position: relative;
+    margin-bottom: 0;
+}
+.form_wrap .ul .radio_wrap .input_radio {
+    position: relative;
+    top:0;
+    right: 0;
+    opacity: 1;
+}
+.ul .radio_wrap span {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: white;
+    list-style: none;
+}
+.ul .radio_wrap:checked ~ span {
+    background-color: white;
+}
+.submit_btn {
+    width: 400px;
+    background-color:#166cea;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:white;
+}
+label {
+    color: white;
+    font-size: 30px;
+}
+.radio_wrap {
+    margin-right: 70px;
+}

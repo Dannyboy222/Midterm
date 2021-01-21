@@ -1,0 +1,51 @@
+
+.name {
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.nav {
+display: flex;
+list-style: none;
+text-decoration: none;
+background-color: white;
+}
+li {
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Coda Caption', sans-serif;
+    color: white;
+}
+li > a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+a:link {
+    text-decoration: none;}
+a:visited { 
+    color: black; text-decoration: none;}
+h2 {
+    font-size: 50px;
+}
+.title {
+    width: 200px;
+    color: black;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+}
+button {
+    width: 100px;
+    height: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+    background-color: #166cea;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+}
+button:hover {
+    opacity: 0.7;
+}

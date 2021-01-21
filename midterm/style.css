@@ -1,0 +1,46 @@
+body{
+    background-image: url("image/cat.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+    background-size: cover;
+    height: 100vh;
+
+}
+.name {
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.nav {
+display: flex;
+list-style: none;
+text-decoration: none;
+background-color: white;
+}
+li {
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Coda Caption', sans-serif;
+    color: white;
+}
+li > a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+a:link {
+    text-decoration: none;}
+a:visited { 
+    color: black; text-decoration: none;}
+#pic {
+    margin-top:-15px;
+}
+#aboutus {
+    font-size: 30px;
+    margin-top: 200px;
+    float: left;
+    width: 600px;
+    margin-left: 200px;
+    font-family: 'Coda Caption', sans-serif;
+    height: 500px;
+}
+
